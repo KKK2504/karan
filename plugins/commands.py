@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('🤖 Updates', url='https://t.me/central_links')
             ],
             [
-                InlineKeyboardButton('Our Group 🌏', url=f"https://t.me/central_request"),
+                InlineKeyboardButton('Join Our Group 🌏', url=f"https://t.me/central_request"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
